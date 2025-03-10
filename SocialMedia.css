@@ -1,0 +1,87 @@
+/* General Page Styling */
+.social-page {
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Instagram Page */
+  .instagram {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  }
+  
+  /* Facebook Page */
+  .facebook {
+    background: #3b5998;
+  }
+  
+  /* Snapchat Page */
+  .snapchat {
+    background: #fffc00;
+    color: black;
+  }
+  
+  /* YouTube Page */
+  .youtube {
+    background: #ff0000;
+  }
+  
+  /* Features Section */
+  .features {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .features div {
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .features div:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+  }
+  
+  /* Explore Button */
+  .explore-btn {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .explore-btn:hover {
+    background: #ddd;
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .social-page {
+      padding: 30px;
+    }
+  
+    .features {
+      grid-template-columns: 1fr;
+    }
+  }
+  
