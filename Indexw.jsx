@@ -6,6 +6,7 @@ import Instagram from "./Instagram";
 import Snapchat from "./Snapchat";  // Fixed typo
 import Youtube from "./Youtube";
 import Ipl from "./Ipl";
+import Gadgets from "./Gadgets";
 
 const Indexw = () => {
     const obj=[
@@ -32,6 +33,7 @@ const Indexw = () => {
           <li><NavLink to="/Instagram">Instagram</NavLink></li>
           <li><NavLink to="/Snapchat">Snapchat</NavLink></li>
           <li><NavLink to='/Ipl'>Team IPL</NavLink></li>
+          <li><NavLink to="/Gadgets">Gadgets</NavLink></li>
       </div>
       <Routes>
             <Route path="/Youtube" element={<Youtube />} />
@@ -39,6 +41,7 @@ const Indexw = () => {
             <Route path="/Instagram" element={<Instagram />} />
             <Route path="/Snapchat" element={<Snapchat />} />
             <Route path="/Ipl" element={<Ipl/>}/>
+            <Route path="/Gadgets" element={<Gadgets/>}/>
             <Route path="/" element={
                     <>
                     <header>
